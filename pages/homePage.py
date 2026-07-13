@@ -7,6 +7,9 @@ class home():
         self.accountsndList = page.get_by_text("Account & Lists")
         self.menuBtn = page.locator("#nav-hamburger-menu")
         self.searchBtn = page.locator("#nav-search-submit-button")
+        self.searchBox = page.locator("input#twotabsearchtextbox")
+        self.menuIcon = page.get_by_label("Open All Categories Menu")
+        self.accountsndList = page.locator("//span[contains(text(),'Account & Lists')]")
 
     def validateVisibilityOfSearchbar(self):
         expect(self.searchBar).to_be_visible()
@@ -21,6 +24,27 @@ class home():
         self.searchBar.fill(product)
     
     def clickOnsearchBtn(self):
-        self.searchBar.click()
+        self.searchBtn.click()
+    
+    def waitingForSearchBoxToBeVisible(self):
+        self.searchBox.wait_for(state="visible", timeout=50000)
+    
+    def validateVisibilityOfSeachBox(self):
+         expect(self.searchBox).to_be_visible()
+    
+    def verifyTitle(self):
+        expect(self.page).to_have_title("Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in")
+    
+    def validateThevisibityOfMenu(self):
+        expect(self.menuIcon).to_be_visible()
+    
+    def clickOnAccountsndList(self):
+        self.accountsndList.click()
+    
+    def enterSearchText(self, text):
+        self.searchBox.fill(text)
+
+    def clickOnSearchBtn(self):
+        self.searchBox.press("Enter")
 
 
