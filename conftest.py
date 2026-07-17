@@ -5,5 +5,9 @@ import pytest
 @pytest.fixture()
 def navigateToAmazon(page: Page):
     page.goto("https://www.amazon.in/")
+    # page.goto(os.getenv("url"))
+
+
+
     
     
