@@ -1,0 +1,40 @@
+chatGPT, 
+claude
+gitHub copiolt
+gemini
+
+
+LLM : PROMT
+
+20 words:
+
+4,-token 4,4,4,4
+
+
+PROMT --- Tokens --
+
+
+
+
+
+
+LLM:  PROMT: 
+
+MCP Servers
+
+AI agent
+
+
+
+=========reports===========
+
+HTML
+1. installation: pip install pytest-html
+2. execution: pytest -m home -s -v --html=report.html --headed -n 3
+3. start report.html
+
+
+Allure:
+1. installation: pip install allure-pytest
+2. execution: pytest -m home -s -v --alluredir=allure-results --headed -n 3
+3. allure serve allure-results   or allure generate allure-results -o allure-report -clean  and allure open allure-report
