@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Thu Jul 23 14:17:52 UTC 2026","Thu Jul 23 14:17:52 UTC 2026","0","tests","test_login","","","","test_positiveLogin_validaCreds",""
+"broken","Thu Jul 23 14:17:52 UTC 2026","Thu Jul 23 14:17:52 UTC 2026","0","tests","test_results","","","","test_validate_the_navigation_to_results_page",""
+"broken","Thu Jul 23 14:17:52 UTC 2026","Thu Jul 23 14:17:52 UTC 2026","0","tests","test_home","","","","test_validate_search_box_accepts_input",""
+"broken","Thu Jul 23 14:17:52 UTC 2026","Thu Jul 23 14:17:52 UTC 2026","0","tests","test_home","","","","test_validate_the_home_page_title",""
+"broken","Thu Jul 23 14:17:52 UTC 2026","Thu Jul 23 14:17:52 UTC 2026","0","tests","test_home","","","","test_validating_the_home_screen_elements",""
+"broken","Thu Jul 23 14:17:52 UTC 2026","Thu Jul 23 14:17:52 UTC 2026","0","tests","test_results","","","","test_validate_the_add_to_cart",""
