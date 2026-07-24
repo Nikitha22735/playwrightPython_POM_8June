@@ -8,10 +8,10 @@ on:
     branches:
       - main
   workflow_dispatch:
-    input:
-      markers:
+    inputs:
+      marker:
         description: provide the marker
-        required: false
+        required: true
         default: "smoke"
 
 jobs:
